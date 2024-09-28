@@ -57,6 +57,9 @@ This project showcases the development of a mobile robot capable of navigating a
 ![photos3](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/VideoCapture_%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B9%DB%B2%DB%B8-%DB%B2%DB%B2%DB%B0%DB%B0%DB%B4%DB%B2.jpg)
 
 ![photos4](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B7%DB%B0%DB%B9_%DB%B1%DB%B3%DB%B4%DB%B6%DB%B1%DB%B9.jpg)
+
+[Video from Rotten and fresh banana detection](https://www.canva.com/)
+
 ## How to Run the Project
 To run the project locally, follow the steps below:
 
