@@ -62,7 +62,7 @@ This project showcases the development of a mobile robot capable of navigating a
 
 
 ### Hint
-you can see [Another video in my colab](https://drive.google.com/file/d/1IpKdUAs_cS0MrwI0nmURji8K6AuAG6XX/view?usp=drive_link)
+you can see [another video in my colab](https://drive.google.com/file/d/1IpKdUAs_cS0MrwI0nmURji8K6AuAG6XX/view?usp=drive_link)
 
 ## How to Run the Project
 To run the project locally, follow the steps below:
