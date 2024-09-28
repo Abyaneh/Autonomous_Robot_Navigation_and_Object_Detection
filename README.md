@@ -163,6 +163,6 @@ Contributions are welcome! To contribute:
 [Back to Top](#table-of-contents)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Abyaneh/rotten_and_fresh/tree/main#) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Abyaneh/rotten_and_fresh/tree/main?tab=MIT-1-ov-file#) file for details.
 
 [Back to Top](#table-of-contents)
