@@ -45,7 +45,7 @@ This project showcases the development of a mobile robot capable of navigating a
 
 [Back to Top](#table-of-contents)
 
-## Videos and Photos from project
+## Videos and Photos from the project
 
 ### Physical Structure
 ![photos1](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/Clipped_image_%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B9%DB%B2%DB%B6_%DB%B1%DB%B2%DB%B4%DB%B2%DB%B3%DB%B9.png)
@@ -53,8 +53,10 @@ This project showcases the development of a mobile robot capable of navigating a
 ### Circuitry
 ![photos2](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B9%DB%B2%DB%B6_%DB%B1%DB%B2%DB%B4%DB%B3%DB%B5%DB%B9_LinkedIn.png)
 
-### rotten and fresh banana detection
-![photos3](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B7%DB%B0%DB%B9_%DB%B1%DB%B3%DB%B4%DB%B6%DB%B1%DB%B9.jpg)
+### Rotten and fresh banana detection
+![photos3](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/VideoCapture_%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B9%DB%B2%DB%B8-%DB%B2%DB%B2%DB%B0%DB%B0%DB%B4%DB%B2.jpg)
+
+![photos4](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B7%DB%B0%DB%B9_%DB%B1%DB%B3%DB%B4%DB%B6%DB%B1%DB%B9.jpg)
 ## How to Run the Project
 To run the project locally, follow the steps below:
 
