@@ -45,7 +45,7 @@ This project showcases the development of a mobile robot capable of navigating a
 
 [Back to Top](#table-of-contents)
 
-## Video Demonstration
+## Videos and Photos from project
 [Insert video link]
 
 [Back to Top](#table-of-contents)
