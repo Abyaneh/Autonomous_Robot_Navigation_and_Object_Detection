@@ -18,7 +18,7 @@ This project showcases the development of a mobile robot capable of navigating a
 
 ## Features
 - **Autonomous Navigation**: The robot can navigate through environments without human intervention, following predefined paths.
-- **Real-Time Object Detection**: Equipped with a YOLO model, the robot can identify and classify bananas as either rotten or healthy.
+- **Real-Time Object Detection (My Contribution)**: Equipped with a YOLO model, the robot can identify and classify bananas as either rotten or healthy.
 - **Camera-Based Positioning**: Utilizes a camera to determine the robot's position and orientation accurately.
 - **PID Control System**: Employs a PID controller for precise movement and stability during navigation.
 - **Obstacle Avoidance**: Implements Artificial Potential Field algorithms to avoid obstacles dynamically.
