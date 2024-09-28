@@ -35,6 +35,64 @@ This project showcases the development of a mobile robot capable of navigating a
 
 [Back to Top](#table-of-contents)
 
+## Explain more about the image Processing Layer
+
+### Real-Time Object Detection (My Contribution)
+One of the core components of this project is the real-time object detection system, specifically designed to distinguish between rotten and healthy bananas. This feature plays a vital role in the autonomous navigation of the robot, allowing it to recognize and classify objects in its environment effectively. Below are the details of this system, including the methodologies, tools, and results.
+
+#### 1. Dataset Preparation and Labeling
+The first step in creating an object detection model is collecting and labeling data. For this task, we used Roboflow, a popular tool for image annotation and dataset management. I performed the following tasks:
+
+Image Collection: Captured a large dataset of banana images, ensuring variety in lighting conditions, angles, and banana states (rotten vs. healthy).
+Annotation: Manually labeled the bananas using bounding boxes and appropriate class labels (i.e., "rotten" and "healthy").
+Data Augmentation: Applied image augmentation techniques such as flipping, rotation, and brightness adjustments to increase the dataset’s diversity and improve model robustness.
+#### 2. Training the YOLO Model
+To achieve real-time object detection, we selected YOLO (You Only Look Once) as our model, due to its efficiency and accuracy in detecting objects in real-time. The key steps involved in training were:
+
+Model Selection: Chose a pre-trained YOLOv5 model to fine-tune for our specific task. YOLO’s architecture allows for fast detection, which is crucial for real-time applications like ours.
+Training Process:
+Fine-tuned the model on the labeled banana dataset, running several epochs until optimal accuracy and loss metrics were achieved.
+Used a custom training script to monitor the training process, adjust learning rates, and evaluate the model's performance after each epoch.
+Implemented early stopping to avoid overfitting, ensuring that the model performs well on unseen data.
+Validation: After training, the model was validated on a separate test set to assess its ability to accurately distinguish between rotten and healthy bananas.
+#### 3. Real-Time Integration with the Robot
+Once the YOLO model was trained, it was integrated into the robot’s vision system. The following steps describe this integration:
+
+Camera Feed Processing: The robot’s camera continuously streams real-time video to the processing unit, which passes each frame through the YOLO model.
+Object Detection Pipeline:
+Preprocessing: Each video frame is resized and normalized before being fed into the model to ensure consistent detection accuracy.
+Inference: The YOLO model detects objects (bananas) in real-time, outputting bounding boxes, class labels (rotten/healthy), and confidence scores.
+Post-processing: Non-maximum suppression (NMS) was applied to eliminate duplicate detections and refine the bounding boxes for a cleaner result.
+Visualization: The detected bananas are highlighted with bounding boxes in the robot's camera feed, and their classification (rotten/healthy) is displayed on the control panel.
+Decision-Making: Based on the classification results, the robot can adjust its path or perform specific tasks, such as avoiding rotten bananas.
+#### 4. Performance and Results
+The real-time object detection system was tested extensively in various scenarios, including different lighting conditions and varying distances. The key results were:
+
+Detection Speed: The YOLO model provided real-time detection with minimal latency, allowing the robot to make immediate decisions based on the objects detected.
+Accuracy: The model achieved an accuracy rate of over 90% in distinguishing between rotten and healthy bananas, even in challenging environments.
+Scalability: The system is scalable to other types of objects by simply retraining the YOLO model on a different dataset, making it adaptable to various industrial applications.
+#### 5. Technologies & Tools Used
+YOLOv5: For real-time object detection and classification.
+Roboflow: For dataset annotation, augmentation, and management.
+Python: The primary programming language used for model training and integration.
+OpenCV: For image processing and handling the camera feed.
+PyTorch: For training the YOLO model.
+TCP/IP: Communication protocol used to send detection data from the robot to the control panel.
+Visual Example
+Below is a sample image showing the real-time detection of bananas, where the robot successfully identifies rotten and healthy bananas:
+
+Next Steps and Future Improvements
+Multi-class Detection: In future iterations, the system can be extended to detect and classify additional objects or anomalies beyond bananas.
+Model Optimization: Further optimization of the YOLO model, potentially exploring lightweight versions like YOLOv8 for faster inference on embedded systems.
+Robustness Testing: More extensive testing in diverse environmental conditions (e.g., low light, obstructions) to ensure the system’s reliability.
+Back to Top
+
+
+
+
+
+
+
 ## Technologies & Tools Used
 - **Programming Languages**: Python, C++
 - **Control Systems**: PID controller
