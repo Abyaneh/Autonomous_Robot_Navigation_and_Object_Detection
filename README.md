@@ -69,7 +69,7 @@ Decision-Making: Based on the classification results, the robot can adjust its p
 The real-time object detection system was tested extensively in various scenarios, including different lighting conditions and varying distances. The key results were:
 
 Detection Speed: The YOLO model provided real-time detection with minimal latency, allowing the robot to make immediate decisions based on the objects detected.
-Accuracy: The model achieved an accuracy rate of over 90% in distinguishing between rotten and fresh bananas, even in challenging environments.
+Accuracy: The model achieved an accuracy rate of over 70%( you can increase this rate with more epochs, use other methods, or more data) in distinguishing between rotten and fresh bananas, even in challenging environments.
 Scalability: The system is scalable to other types of objects by simply retraining the YOLO model on a different dataset, making it adaptable to various industrial applications.
 #### 5. Technologies & Tools Used
 YOLOv8: For real-time object detection and classification.
