@@ -138,10 +138,6 @@ To run the project locally, follow the steps below:
     ```bash
     pip install -r requirements.txt
     ```
-4. **Run the Monitoring Layer**: Launch the control panel application to start monitoring and controlling the robot.
-5. **Configure the Camera**: Make sure your camera is set up and connected properly to ensure the robot can process the video feed.
-6. **Start Navigation**: Define a path on the control panel and watch the robot navigate autonomously while detecting objects.
-
 [Back to Top](#table-of-contents)
 
 ## Team Members
