@@ -46,6 +46,8 @@ This project showcases the development of a mobile robot capable of navigating a
 [Back to Top](#table-of-contents)
 
 ## Videos and Photos from project
+
+### Physical Structure
 ![photos1](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/Clipped_image_%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B9%DB%B2%DB%B6_%DB%B1%DB%B2%DB%B4%DB%B2%DB%B3%DB%B9.png)
 
 ### Circuitry
