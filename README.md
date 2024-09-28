@@ -48,6 +48,7 @@ This project showcases the development of a mobile robot capable of navigating a
 ## Videos and Photos from project
 ![photos1](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/Clipped_image_%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B9%DB%B2%DB%B6_%DB%B1%DB%B2%DB%B4%DB%B2%DB%B3%DB%B9.png)
 
+### Circuitry
 ![photos2](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B9%DB%B2%DB%B6_%DB%B1%DB%B2%DB%B4%DB%B3%DB%B5%DB%B9_LinkedIn.png)
 ![photos3](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B7%DB%B0%DB%B9_%DB%B1%DB%B3%DB%B4%DB%B6%DB%B1%DB%B9.jpg)
 ## How to Run the Project
