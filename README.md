@@ -91,7 +91,7 @@ Back to Top
 
 ## My dataset
 
-you can download my dataset from this [link](https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification)
+you can download my dataset from [this link](https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification)
 
 
 ## Technologies & Tools Used
