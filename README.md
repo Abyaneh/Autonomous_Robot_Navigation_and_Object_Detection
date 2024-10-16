@@ -50,7 +50,7 @@ Data Augmentation: Applied image augmentation techniques such as flipping, rotat
 #### 2. Training the YOLO Model
 To achieve real-time object detection, we selected YOLO (You Only Look Once) as our model, due to its efficiency and accuracy in detecting objects in real-time. The key steps involved in training were:
 
-Model Selection: Chose a pre-trained YOLOv5 model to fine-tune for our specific task. YOLO’s architecture allows for fast detection, which is crucial for real-time applications like ours.
+Model Selection: Chose a pre-trained YOLOv8 model to fine-tune for our specific task. YOLO’s architecture allows for fast detection, which is crucial for real-time applications like ours.
 Training Process:
 Fine-tuned the model on the labeled banana dataset, running several epochs until optimal accuracy and loss metrics were achieved.
 Used a custom training script to monitor the training process, adjust learning rates, and evaluate the model's performance after each epoch.
