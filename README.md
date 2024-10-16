@@ -74,11 +74,11 @@ Accuracy: The model achieved an accuracy rate of over 99%( you can increase this
 
 ##### The detail of the results from the model evaluation:
 
-### Evaluation Metrics:
+#### Evaluation Metrics:
 - **mAP@50** (mean Average Precision at 50% IoU threshold for all classes): **99.5%**
 - **mAP@50-95** (mean Average Precision across IoU thresholds between 50% and 95%): **93.6%**
 
-### Class-wise Performance:
+#### Class-wise Performance:
 
 - **Fresh banana**:
   - **Precision**: 100%
