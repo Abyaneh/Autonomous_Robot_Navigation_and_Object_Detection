@@ -58,6 +58,7 @@ Used a custom training script to monitor the training process, adjust learning r
 - **Batch size**: 16
 - **Optimizer**: Adam
 - **Learning rate**: 0.001
+  
 Implemented early stopping to avoid overfitting, ensuring that the model performs well on unseen data.
 Validation: After training, the model was validated on a separate test set to assess its ability to accurately distinguish between rotten and fresh bananas.
 #### 3. Real-Time Integration with the Robot
