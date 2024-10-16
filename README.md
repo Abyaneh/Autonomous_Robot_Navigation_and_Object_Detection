@@ -54,6 +54,10 @@ Model Selection: Chose a pre-trained YOLOv8 model to fine-tune for our specific 
 Training Process:
 Fine-tuned the model on the labeled banana dataset, running several epochs until optimal accuracy and loss metrics were achieved.
 Used a custom training script to monitor the training process, adjust learning rates, and evaluate the model's performance after each epoch.
+- **Epochs**: 40
+- **Batch size**: 16
+- **Optimizer**: Adam
+- **Learning rate**: 0.001
 Implemented early stopping to avoid overfitting, ensuring that the model performs well on unseen data.
 Validation: After training, the model was validated on a separate test set to assess its ability to accurately distinguish between rotten and fresh bananas.
 #### 3. Real-Time Integration with the Robot
