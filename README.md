@@ -124,6 +124,7 @@ you can download the fresh banana dataset with the label in Roboflow at [this li
 
 you can download the rotten banana dataset with the label in Roboflow at [this link](https://app.roboflow.com/fresh-and-rotten-banana/rotten-banana-fosdr/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 
+[Back to Top](#table-of-contents)
 
 ## Technologies & Tools Used
 - **Programming Languages**: Python, C++
@@ -160,7 +161,7 @@ To run the project locally, follow the steps below:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection
+    git clone https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/tree/main
     ```
 2. Change directory to the project folder:
     ```bash
