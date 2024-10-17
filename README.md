@@ -74,8 +74,9 @@ Decision-Making: Based on the classification results, the robot can adjust its p
 #### 4. Performance and Results
 The real-time object detection system was tested extensively in various scenarios, including different lighting conditions and varying distances. The key results were:
 
-Detection Speed: The YOLO model provided real-time detection with minimal latency, allowing the robot to make immediate decisions based on the objects detected.
-Accuracy: The model achieved an accuracy rate of over 99%( you can increase this rate with more epochs, use other methods, or more data) in distinguishing between rotten and fresh bananas, even in challenging environments.
+Detection Speed: The YOLOv8 model demonstrated real-time detection capabilities with minimal latency. The model processed each image in approximately 2.2 milliseconds during inference, with a total of 5.2 milliseconds (including preprocessing and postprocessing) per image. This fast detection speed enables the robot to make immediate decisions based on detected objects, ensuring a quick response time in dynamic environments.
+
+Accuracy: The model achieved an impressive accuracy rate of over 99% in distinguishing between rotten and fresh bananas, even in challenging environments. You can further increase this accuracy with more epochs, using advanced methods, or incorporating additional data.
 
 ##### The detail of the results from the model evaluation:
 
@@ -118,6 +119,8 @@ Back to Top
 ## My dataset
 
 you can download my dataset from [this link](https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification)
+you can download the fresh banana dataset with the label in Roboflow at [this link](https://app.roboflow.com/fruitsfreshandrottenlabels/fresh-banana-wr6rm/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
+you can download the rotten banana dataset with the label in Roboflow at [this link](https://app.roboflow.com/fresh-and-rotten-banana/rotten-banana-fosdr/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 
 
 ## Technologies & Tools Used
@@ -155,7 +158,7 @@ To run the project locally, follow the steps below:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/Abyaneh/autonomous-robot-navigation.git
+    git clone https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection
     ```
 2. Change directory to the project folder:
     ```bash
