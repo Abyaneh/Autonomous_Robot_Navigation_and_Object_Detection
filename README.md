@@ -120,9 +120,9 @@ Back to Top
 
 you can download my dataset from [this link](https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification)
 
-you can download the fresh banana dataset with the label in Roboflow at [this link](https://app.roboflow.com/fruitsfreshandrottenlabels/fresh-banana-wr6rm/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
+you can download the fresh banana dataset with the label in Roboflow at [this link](https://app.roboflow.com/fruitsfreshandrottenlabels/fresh-banana-wr6rm/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true). The dataset includes about 1000 images that I labeled, with 70% used for training, 20% for validation, and 10% for testing.
 
-you can download the rotten banana dataset with the label in Roboflow at [this link](https://app.roboflow.com/fresh-and-rotten-banana/rotten-banana-fosdr/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
+you can download the rotten banana dataset with the label in Roboflow at [this link](https://app.roboflow.com/fresh-and-rotten-banana/rotten-banana-fosdr/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true), containing around 1000 images split into 70% for training, 20% for validation, and 10% for testing.
 
 [Back to Top](#table-of-contents)
 
