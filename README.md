@@ -182,7 +182,7 @@ To run the project locally, follow the steps below:
 - **Alireza Padash**
 ![photos2](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/Group.png)
 
-<img src="https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/Group.png" alt="photos2" width="400"/>
+<img src="https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/Group.png" alt="photos2" width="1200"/>
 
 
 
