@@ -154,7 +154,7 @@ Similarly, the rotten banana dataset with labeled images can be found in Roboflo
 
 
 ### Hint
-you can see [another video in my drive](https://drive.google.com/file/d/1IpKdUAs_cS0MrwI0nmURji8K6AuAG6XX/view?usp=drive_link)
+you can see another video in my [google drive](https://drive.google.com/file/d/1IpKdUAs_cS0MrwI0nmURji8K6AuAG6XX/view?usp=drive_link)
 
 ## How to Run the Project
 To run the project locally, follow the steps below:
