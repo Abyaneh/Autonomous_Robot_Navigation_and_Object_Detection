@@ -140,17 +140,17 @@ Similarly, the rotten banana dataset with labeled images can be found in Roboflo
 ## Videos and Photos from the project
 
 ### Physical Structure
-![photos1](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/Clipped_image_%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B9%DB%B2%DB%B6_%DB%B1%DB%B2%DB%B4%DB%B2%DB%B3%DB%B9.png)
+![photos1](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/Physical%20Structure.png)
 
 ### Circuitry
-![photos2](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B9%DB%B2%DB%B6_%DB%B1%DB%B2%DB%B4%DB%B3%DB%B5%DB%B9_LinkedIn.png)
+![photos2](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/Circuitry.png)
 
 ### Rotten and fresh banana detection
-![photos3](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/VideoCapture_%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B9%DB%B2%DB%B8-%DB%B2%DB%B2%DB%B0%DB%B0%DB%B4%DB%B2.jpg)
+![photos3](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/rotten%20and%20fresh%20banana%20detection.jpg)
 
-![photos4](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B7%DB%B0%DB%B9_%DB%B1%DB%B3%DB%B4%DB%B6%DB%B1%DB%B9.jpg)
+![photos4](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/rotten%20and%20fresh%20banana%20detection%20outline.jpg)
 
-[Video from rotten and fresh banana detection](https://github.com/Abyaneh/rotten_and_fresh/blob/main/%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B7%DB%B0%DB%B9_%DB%B1%DB%B3%DB%B4%DB%B8%DB%B2%DB%B8.mp4)
+[Video from rotten and fresh banana detection](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/Video/Demonstration.mp4)
 
 
 ### Hint
@@ -180,7 +180,7 @@ To run the project locally, follow the steps below:
 - **Mohammad Mohtashami**
 - **Alireza Moradmand**
 - **Alireza Padash**
-![photos2](https://github.com/Abyaneh/rotten_and_fresh/blob/main/photos%20%20from%20group%20project/Clipped_image_%DB%B2%DB%B0%DB%B2%DB%B4%DB%B0%DB%B9%DB%B2%DB%B6_%DB%B1%DB%B3%DB%B4%DB%B7%DB%B3%DB%B3.png)
+![photos2](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/Group.png)
 
 [Back to Top](#table-of-contents)
 
