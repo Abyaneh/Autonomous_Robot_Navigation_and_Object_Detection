@@ -1,4 +1,4 @@
-# Autonomous Robot Navigation and Object Detection
+# Autonomous Agricultural Robot Navigation and Object Detection
 
 ## Table of Contents
 - [Introduction](#introduction)
