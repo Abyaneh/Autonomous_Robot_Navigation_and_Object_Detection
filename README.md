@@ -180,7 +180,8 @@ To run the project locally, follow the steps below:
 - **Mohammad Mohtashami**
 - **Alireza Moradmand**
 - **Alireza Padash**
-![photos2](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/Group_Picture.png)
+
+<img src="https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/Group_Picture.png" alt="Final_Assembled_Device" width="400"/>
 
 [Back to Top](#table-of-contents)
 
