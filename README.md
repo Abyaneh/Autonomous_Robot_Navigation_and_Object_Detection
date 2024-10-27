@@ -4,10 +4,9 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Project Layers](#project-layers)
-- [Explain more about the image Processing Layer](#explain-more-about-the-image-Processing-Layer)
-- [My dataset](#my-dataset)
-- [Technologies & Tools Used](#technologies--tools-used)
-- [Video Demonstration](#video-demonstration)
+- [Dataset](#dataset)
+- [Technologies & Tools](#technologies--tools)
+- [Videos and Photos](#videos-and-photos)
 - [How to Run the Project](#how-to-run-the-project)
 - [Team Members](#team-members)
 - [Contributing](#contributing)
@@ -15,6 +14,8 @@
 
 ## Introduction
 This project showcases the development of a mobile robot capable of navigating autonomously using a camera-based positioning system. The robot is controlled by a PID controller and utilizes Artificial Potential Field pathfinding while detecting and classifying objects (rotten vs. fresh bananas) using **YOLO**. The aim is to create an efficient and intelligent robotic system that can operate in real-world environments.
+
+![photos4](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/rotten%20and%20fresh%20banana%20detection%20outline.jpg)
 
 [Back to Top](#table-of-contents)
 
@@ -34,20 +35,18 @@ This project showcases the development of a mobile robot capable of navigating a
 4. **Communication Layer**: The control panel acts as a TCP server while the robot functions as a TCP client, communicating over Wi-Fi. Control signals are sent to the robot’s motors in real-time using the socket API.
 5. **Object Detection (My Contribution)**: I equipped the robot with a YOLO model trained to detect rotten vs. fresh bananas in real-time. The dataset was labeled using Roboflow, and the model was integrated with the robot’s camera for live detection.
 
-[Back to Top](#table-of-contents)
+### Explain more about the image Processing Layer
 
-## Explain more about the image Processing Layer
-
-### Real-Time Object Detection (My Contribution)
+#### Real-Time Object Detection (My Contribution)
 One of the core components of this project is the real-time object detection system, specifically designed to distinguish between rotten and fresh bananas. This feature plays a vital role in the autonomous navigation of the robot, allowing it to recognize and classify objects in its environment effectively. Below are the details of this system, including the methodologies, tools, and results.
 
-#### 1. Dataset Preparation and Labeling
+##### 1. Dataset Preparation and Labeling
 The first step in creating an object detection model is collecting and labeling data. For this task, we used Roboflow, a popular tool for image annotation and dataset management. I performed the following tasks:
 
 Image Collection: Captured a large dataset of banana images, ensuring variety in lighting conditions, angles, and banana states (rotten vs. fresh).
 Annotation: Manually labeled the bananas using bounding boxes and appropriate class labels (i.e., "rotten" and "fresh").
 Data Augmentation: Applied image augmentation techniques such as flipping, rotation, and brightness adjustments to increase the dataset’s diversity and improve model robustness.
-#### 2. Training the YOLO Model
+##### 2. Training the YOLO Model
 To achieve real-time object detection, we selected YOLO (You Only Look Once) as our model, due to its efficiency and accuracy in detecting objects in real-time. The key steps involved in training were:
 
 Model Selection: Chose a pre-trained YOLOv8 model to fine-tune for our specific task. YOLO’s architecture allows for fast detection, which is crucial for real-time applications like ours.
@@ -61,7 +60,7 @@ Used a custom training script to monitor the training process, adjust learning r
   
 Implemented early stopping to avoid overfitting, ensuring that the model performs well on unseen data.
 Validation: After training, the model was validated on a separate test set to assess its ability to accurately distinguish between rotten and fresh bananas.
-#### 3. Real-Time Integration with the Robot
+##### 3. Real-Time Integration with the Robot
 Once the YOLO model was trained, it was integrated into the robot’s vision system. The following steps describe this integration:
 
 Camera Feed Processing: The robot’s camera continuously streams real-time video to the processing unit, which passes each frame through the YOLO model.
@@ -71,14 +70,14 @@ Inference: The YOLO model detects objects (bananas) in real-time, outputting bou
 Post-processing: Non-maximum suppression (NMS) was applied to eliminate duplicate detections and refine the bounding boxes for a cleaner result.
 Visualization: The detected bananas are highlighted with bounding boxes in the robot's camera feed, and their classification (rotten/fresh) is displayed on the control panel.
 Decision-Making: Based on the classification results, the robot can adjust its path or perform specific tasks, such as avoiding rotten bananas.
-#### 4. Performance and Results
+##### 4. Performance and Results
 The real-time object detection system was tested extensively in various scenarios, including different lighting conditions and varying distances. The key results were:
 
 Detection Speed: The YOLOv8 model demonstrated real-time detection capabilities with minimal latency. The model processed each image in approximately 2.2 milliseconds during inference, with a total of 5.2 milliseconds (including preprocessing and postprocessing) per image. This fast detection speed enables the robot to make immediate decisions based on detected objects, ensuring a quick response time in dynamic environments.
 
 Accuracy: The model achieved an impressive accuracy rate of over 99% in distinguishing between rotten and fresh bananas, even in challenging environments. You can further increase this accuracy with more epochs, using advanced methods, or incorporating additional data.
 
-##### The detail of the results from the model evaluation:
+###### The detail of the results from the model evaluation:
 
 #### Evaluation Metrics:
 - **mAP@50** (mean Average Precision at 50% IoU threshold for all classes): **99.5%**
@@ -113,31 +112,32 @@ Next Steps and Future Improvements
 Multi-class Detection: In future iterations, the system can be extended to detect and classify additional objects or anomalies beyond bananas.
 Model Optimization: Further optimization of the YOLO model, potentially exploring lightweight versions like YOLOv8 for faster inference on embedded systems.
 Robustness Testing: More extensive testing in diverse environmental conditions (e.g., low light, obstructions) to ensure the system’s reliability.
-Back to Top
-
-
-## My dataset
-
-you can download my dataset from [this link](https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification)
-
-You can download the fresh banana dataset with labeled images in Roboflow at [this link](https://app.roboflow.com/fruitsfreshandrottenlabels/fresh-banana-wr6rm/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true). The dataset includes about 1000 images that I labeled, with 70% used for training, 20% for validation, and 10% for testing.
-
-Similarly, the rotten banana dataset with labeled images can be found in Roboflow at [this link](https://app.roboflow.com/fresh-and-rotten-banana/rotten-banana-fosdr/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true), containing around 1000 images split into 70% for training, 20% for validation, and 10% for testing.
 
 [Back to Top](#table-of-contents)
 
-## Technologies & Tools Used
+
+## Dataset
+
+you can download dataset from [here](https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification)
+
+You can download the fresh banana dataset with labeled images in Roboflow at [here](https://app.roboflow.com/fruitsfreshandrottenlabels/fresh-banana-wr6rm/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true). The dataset includes about 1000 images that I labeled, with 70% used for training, 20% for validation, and 10% for testing.
+
+Similarly, the rotten banana dataset with labeled images can be found in Roboflow at [here](https://app.roboflow.com/fresh-and-rotten-banana/rotten-banana-fosdr/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true), containing around 1000 images split into 70% for training, 20% for validation, and 10% for testing.
+
+[Back to Top](#table-of-contents)
+
+## Technologies & Tools
 - **Programming Languages**: Python, C++
 - **Control Systems**: PID controller
 - **Pathfinding**: Artificial Potential Field
 - **Image Processing**: OpenCV
 - **Deep Learning**: YOLO for object detection
-- **Tools**: Roboflow, GitHub
+- **Tools**: Roboflow
 - **Communication Protocol**: TCP/IP via socket API
 
 [Back to Top](#table-of-contents)
 
-## Videos and Photos from the project
+## Videos and Photos
 
 ### Physical Structure
 ![photos1](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/Physical%20Structure.png)
@@ -148,13 +148,13 @@ Similarly, the rotten banana dataset with labeled images can be found in Roboflo
 ### Rotten and fresh banana detection
 ![photos3](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/rotten%20and%20fresh%20banana%20detection.jpg)
 
-![photos4](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/photos%20%20from%20group%20project/rotten%20and%20fresh%20banana%20detection%20outline.jpg)
 
-[Video from rotten and fresh banana detection](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/Video/Demonstration.mp4)
+### Videos
 
+- [Video from rotten and fresh banana detection](https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection/blob/main/Video/Demonstration.mp4)
+- [Another one](https://drive.google.com/file/d/1IpKdUAs_cS0MrwI0nmURji8K6AuAG6XX/view?usp=drive_link)
 
-### Hint
-you can see another video in my [google drive](https://drive.google.com/file/d/1IpKdUAs_cS0MrwI0nmURji8K6AuAG6XX/view?usp=drive_link)
+[Back to Top](#table-of-contents)
 
 ## How to Run the Project
 To run the project locally, follow the steps below:
